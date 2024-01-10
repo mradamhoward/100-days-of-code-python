@@ -32,7 +32,7 @@ def decrease_sleep_duration(duration):
 
 
 while True:
-    time.sleep(sleep_duration)
+    time.sleep(0.1)
     screen.update()
     ball.move()
 
